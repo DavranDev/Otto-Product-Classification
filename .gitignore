@@ -1,0 +1,31 @@
+# Large pickle files (cached feature engineering output)
+*.pkl
+
+# Kaggle data files
+data/
+
+# CatBoost training artifacts
+catboost_info/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Claude internal
+.claude/
+
+# Generated submission files (optional — keep if you want history)
+submission_*.csv
+
+# OS
+.DS_Store
+Thumbs.db
